@@ -1,0 +1,2416 @@
+admin@vincowoods.com ZvyAgKp6K3RbY3t
+Not Found: /mails/media/static/VWLogoResized.png
+Internal Server Error: /mails/sendMail
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 400, in send_mail
+    msg_body_items=mail_sender.send_mail(details_to_send)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/app1_core/mails_core/sender.py", line 107, in send_mail
+    os.mkdir(folder_name)
+NotADirectoryError: [Errno 20] Not a directory: 'media/6'
+admin@vincowoods.com ZvyAgKp6K3RbY3t
+Not Found: /mails/media/static/VWLogoResized.png
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /
+Not Found: /
+Internal Server Error: /mails/fetchMail
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 254, in get_mail
+    mail_body=mail_receiver.fetch_body(mail_index=mail_id,folderName=objectId)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/app1_core/mails_core/receiver.py", line 279, in fetch_body
+    email_items=self.body_list(msg,folderName)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/app1_core/mails_core/receiver.py", line 166, in body_list
+    txt_file.write(body)
+UnicodeEncodeError: 'ascii' codec can't encode character '\u201c' in position 34: ordinal not in range(128)
+Not Found: /mails/media/static/VWLogoResized.png
+Not Found: /mails/media/static/VWLogoResized.png
+admin@vincowoods.com ZvyAgKp6K3RbY3t
+admin@vincowoods.com ZvyAgKp6K3RbY3t
+admin@vincowoods.com ZvyAgKp6K3RbY3t
+Not Found: /mails/media/static/VWLogoResized.png
+admin@vincowoods.com ZvyAgKp6K3RbY3t
+Internal Server Error: /mails/uploadFile
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 338, in uploadFile
+    abs_path=handle_uploaded_file(request.FILES['file'])
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 43, in handle_uploaded_file
+    with open(settings.MEDIA_ROOT+'/temp/'+f.name, 'wb+') as destination:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/vincowo1/mailsbe.vincowoods.com/media/temp/Dalali.pdf'
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+admin@trendynet.co.ke ZvyAgKp6K3RbY3t
+admin@trendynet.co.ke ZvyAgKp6K3RbY3t
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Internal Server Error: /mails/fetchMail
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 254, in get_mail
+    mail_body=mail_receiver.fetch_body(mail_index=mail_id,folderName=objectId)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/app1_core/mails_core/receiver.py", line 279, in fetch_body
+    email_items=self.body_list(msg,folderName)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/app1_core/mails_core/receiver.py", line 166, in body_list
+    txt_file.write(body)
+UnicodeEncodeError: 'ascii' codec can't encode character '\u201c' in position 34: ordinal not in range(128)
+Internal Server Error: /mails/fetchMail
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 254, in get_mail
+    mail_body=mail_receiver.fetch_body(mail_index=mail_id,folderName=objectId)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/app1_core/mails_core/receiver.py", line 279, in fetch_body
+    email_items=self.body_list(msg,folderName)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/app1_core/mails_core/receiver.py", line 166, in body_list
+    txt_file.write(body)
+UnicodeEncodeError: 'ascii' codec can't encode character '\u201c' in position 34: ordinal not in range(128)
+admin@vincowoods.com ZvyAgKp6K3RbY3t
+admin@vincowoods.com ZvyAgKp6K3RbY3t
+Internal Server Error: /mails/fetchMail
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 254, in get_mail
+    mail_body=mail_receiver.fetch_body(mail_index=mail_id,folderName=objectId)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/app1_core/mails_core/receiver.py", line 279, in fetch_body
+    email_items=self.body_list(msg,folderName)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/app1_core/mails_core/receiver.py", line 166, in body_list
+    txt_file.write(body)
+UnicodeEncodeError: 'ascii' codec can't encode character '\u201c' in position 34: ordinal not in range(128)
+Internal Server Error: /mails/fetchMail
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 254, in get_mail
+    mail_body=mail_receiver.fetch_body(mail_index=mail_id,folderName=objectId)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/app1_core/mails_core/receiver.py", line 279, in fetch_body
+    email_items=self.body_list(msg,folderName)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/app1_core/mails_core/receiver.py", line 166, in body_list
+    txt_file.write(body)
+UnicodeEncodeError: 'ascii' codec can't encode character '\u201c' in position 34: ordinal not in range(128)
+Internal Server Error: /mails/fetchMail
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 254, in get_mail
+    mail_body=mail_receiver.fetch_body(mail_index=mail_id,folderName=objectId)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/app1_core/mails_core/receiver.py", line 279, in fetch_body
+    email_items=self.body_list(msg,folderName)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/app1_core/mails_core/receiver.py", line 166, in body_list
+    txt_file.write(body)
+UnicodeEncodeError: 'ascii' codec can't encode character '\u201c' in position 34: ordinal not in range(128)
+admin@vincowoods.com ZvyAgKp6K3RbY3t
+admin@vincowoods.com ZvyAgKp6K3RbY3t
+admin@vincowoods.com ZvyAgKp6K3RbY3t
+Not Found: /
+Not Found: /favicon.ico
+admin@vincowoods.com ZvyAgKp6K3RbY3t
+Internal Server Error: /mails/fetchMail
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 254, in get_mail
+    mail_body=mail_receiver.fetch_body(mail_index=mail_id,folderName=objectId)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/app1_core/mails_core/receiver.py", line 279, in fetch_body
+    email_items=self.body_list(msg,folderName)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/app1_core/mails_core/receiver.py", line 166, in body_list
+    txt_file.write(body.encode("utf-8"))
+TypeError: write() argument must be str, not bytes
+Not Found: /
+admin@vincowoods.com ZvyAgKp6K3RbY3t
+Internal Server Error: /mails/fetchMail
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 254, in get_mail
+    mail_body=mail_receiver.fetch_body(mail_index=mail_id,folderName=objectId)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/app1_core/mails_core/receiver.py", line 279, in fetch_body
+    email_items=self.body_list(msg,folderName)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/app1_core/mails_core/receiver.py", line 165, in body_list
+    with open(file_path,"w",encode="utf-8") as txt_file:
+TypeError: 'encode' is an invalid keyword argument for open()
+Internal Server Error: /mails/fetchMail
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 254, in get_mail
+    mail_body=mail_receiver.fetch_body(mail_index=mail_id,folderName=objectId)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/app1_core/mails_core/receiver.py", line 279, in fetch_body
+    email_items=self.body_list(msg,folderName)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/app1_core/mails_core/receiver.py", line 165, in body_list
+    with open(file_path,"w",encoding="utf-8") as txt_file:
+TypeError: 'encode' is an invalid keyword argument for open()
+Not Found: /
+admin@vincowoods.com ZvyAgKp6K3RbY3t
+admin@vincowoods.com ZvyAgKp6K3RbY3t
+Internal Server Error: /mails/fetchMail
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 316, in get_mail
+    file_data=htmlFile.read()
+  File "/opt/alt/python39/lib64/python3.9/encodings/ascii.py", line 26, in decode
+    return codecs.ascii_decode(input, self.errors)[0]
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xe2 in position 845: ordinal not in range(128)
+Internal Server Error: /mails/fetchMail
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 259, in get_mail
+    m_f_body=mailBody.objects.get(mailObject__mail_object_id=objectId)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 496, in get
+    raise self.model.DoesNotExist(
+v1.app1_models.mail_body.mail_body.mailBody.DoesNotExist: mailBody matching query does not exist.
+admin@vincowoods.com ZvyAgKp6K3RbY3t
+admin@vincowoods.com ZvyAgKp6K3RbY3t
+Internal Server Error: /mails/fetchMail
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 259, in get_mail
+    m_f_body=mailBody.objects.get(mailObject__mail_object_id=objectId)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 496, in get
+    raise self.model.DoesNotExist(
+v1.app1_models.mail_body.mail_body.mailBody.DoesNotExist: mailBody matching query does not exist.
+Internal Server Error: /mails/fetchMail
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 259, in get_mail
+    m_f_body=mailBody.objects.get(mailObject__mail_object_id=objectId)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 496, in get
+    raise self.model.DoesNotExist(
+v1.app1_models.mail_body.mail_body.mailBody.DoesNotExist: mailBody matching query does not exist.
+Internal Server Error: /mails/fetchMail
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/fields/__init__.py", line 1988, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: ''
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 247, in get_mail
+    m_f_obj=mailObject.objects.get(mail_object_id=objectId)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 482, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1071, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1089, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1096, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1502, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1532, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1448, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1273, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/fields/__init__.py", line 1990, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'mail_object_id' expected a number but got ''.
+Internal Server Error: /mails/fetchMail
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 259, in get_mail
+    m_f_body=mailBody.objects.get(mailObject__mail_object_id=objectId)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 496, in get
+    raise self.model.DoesNotExist(
+v1.app1_models.mail_body.mail_body.mailBody.DoesNotExist: mailBody matching query does not exist.
+Internal Server Error: /mails/fetchMail
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/fields/__init__.py", line 1988, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: ''
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 247, in get_mail
+    m_f_obj=mailObject.objects.get(mail_object_id=objectId)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 482, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1071, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1089, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1096, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1502, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1532, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1448, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1273, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/fields/__init__.py", line 1990, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'mail_object_id' expected a number but got ''.
+Not Found: /
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /mails/media/static/VWLogoResized.png
+Not Found: /favicon.ico
+admin@vincowoods.com ZvyAgKp6K3RbY3t
+admin@vincowoods.com ZvyAgKp6K3RbY3t
+admin@vincowoods.com ZvyAgKp6K3RbY3t
+admin@vincowoods.com ZvyAgKp6K3RbY3t
+admin@vincowoods.com ZvyAgKp6K3RbY3t
+admin@vincowoods.com ZvyAgKp6K3RbY3t
+Not Found: /
+admin@vincowoods.com ZvyAgKp6K3RbY3t
+admin@vincowoods.com ZvyAgKp6K3RbY3t
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /favicon.ico
+Not Found: /
+Not Found: /favicon.ico
+Internal Server Error: /mails/fetchMailHeads
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 215, in get_mail_heads
+    m_object:mailObject=mailObject(
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/base.py", line 559, in __init__
+    raise TypeError(
+TypeError: mailObject() got an unexpected keyword argument 'user_account'
+Internal Server Error: /mails/fetchMail
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 369, in get_mail
+    file_data=htmlFile.read()
+  File "/opt/alt/python39/lib64/python3.9/encodings/ascii.py", line 26, in decode
+    return codecs.ascii_decode(input, self.errors)[0]
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xc2 in position 41: ordinal not in range(128)
+Internal Server Error: /mails/fetchMail
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 313, in get_mail
+    m_f_body=mailBody.objects.get(mailObject__mail_object_id=objectId)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 496, in get
+    raise self.model.DoesNotExist(
+v1.app1_models.mail_body.mail_body.mailBody.DoesNotExist: mailBody matching query does not exist.
+Internal Server Error: /mails/fetchMail
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 313, in get_mail
+    m_f_body=mailBody.objects.get(mailObject__mail_object_id=objectId)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 496, in get
+    raise self.model.DoesNotExist(
+v1.app1_models.mail_body.mail_body.mailBody.DoesNotExist: mailBody matching query does not exist.
+Internal Server Error: /mails/fetchMailHeads
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 238, in get_mail_heads
+    header_to_send.append(stored_head.mail_head_id)
+UnboundLocalError: local variable 'stored_head' referenced before assignment
+Internal Server Error: /mails/fetchMailHeads
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/utils/datastructures.py", line 84, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'userMailAccountId'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 166, in get_mail_heads
+    user_mail_account_id=request.data["userMailAccountId"]
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/utils/datastructures.py", line 86, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'userMailAccountId'
+Internal Server Error: /mails/fetchMailHeads
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/utils/datastructures.py", line 84, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'userMailAccountId'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 166, in get_mail_heads
+    user_mail_account_id=request.data["userMailAccountId"]
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/utils/datastructures.py", line 86, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'userMailAccountId'
+Internal Server Error: /mails/fetchMailHeads
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/utils/datastructures.py", line 84, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'userMailAccountId'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 166, in get_mail_heads
+    user_mail_account_id=request.data["userMailAccountId"]
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/utils/datastructures.py", line 86, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'userMailAccountId'
+Internal Server Error: /mails/fetchMailHeads
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/utils/datastructures.py", line 84, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'userMailAccountId'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 166, in get_mail_heads
+    user_mail_account_id=request.data["userMailAccountId"]
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/utils/datastructures.py", line 86, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'userMailAccountId'
+Internal Server Error: /mails/fetchMailHeads
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/utils/datastructures.py", line 84, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'userMailAccountId'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 166, in get_mail_heads
+    user_mail_account_id=request.data["userMailAccountId"]
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/utils/datastructures.py", line 86, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'userMailAccountId'
+Internal Server Error: /mails/fetchMailHeads
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/utils/datastructures.py", line 84, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'userMailAccountId'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 166, in get_mail_heads
+    user_mail_account_id=request.data["userMailAccountId"]
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/utils/datastructures.py", line 86, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'userMailAccountId'
+Internal Server Error: /mails/fetchMailHeads
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/utils/datastructures.py", line 84, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'userMailAccountId'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 166, in get_mail_heads
+    user_mail_account_id=request.data["userMailAccountId"]
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/utils/datastructures.py", line 86, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'userMailAccountId'
+Internal Server Error: /mails/fetchMailHeads
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/utils/datastructures.py", line 84, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'userMailAccountId'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 166, in get_mail_heads
+    user_mail_account_id=request.data["userMailAccountId"]
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/utils/datastructures.py", line 86, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'userMailAccountId'
+Internal Server Error: /mails/fetchMailHeads
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/utils/datastructures.py", line 84, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'userMailAccountId'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 166, in get_mail_heads
+    user_mail_account_id=request.data["userMailAccountId"]
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/utils/datastructures.py", line 86, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'userMailAccountId'
+Internal Server Error: /mails/fetchMailHeads
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/utils/datastructures.py", line 84, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'userMailAccountId'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 166, in get_mail_heads
+    user_mail_account_id=request.data["userMailAccountId"]
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/utils/datastructures.py", line 86, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'userMailAccountId'
+Not Found: /
+Not Found: /favicon.ico
+[ERROR] [UID:1284][727918] wsgiAppHandler pApp->start_response() return NULL.
+Log in failed check your credentails and try again.
+Not Found: /
+Not Found: /
+Internal Server Error: /mails/fetchMailHeads
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 179, in get_mail_heads
+    mail_headers=mail_receiver.fetch_headers()
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/app1_core/mails_core/receiver.py", line 105, in fetch_headers
+    mail_list.append(self.header_list(msg,items_to_get,mail_index))
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/app1_core/mails_core/receiver.py", line 74, in header_list
+    msg_item_gotten,_=decode_header(msg_header_details[item_to_get])[0]
+  File "/opt/alt/python39/lib64/python3.9/email/header.py", line 80, in decode_header
+    if not ecre.search(header):
+TypeError: expected string or bytes-like object
+Internal Server Error: /mails/fetchMailHeads
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 179, in get_mail_heads
+    mail_headers=mail_receiver.fetch_headers()
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/app1_core/mails_core/receiver.py", line 105, in fetch_headers
+    mail_list.append(self.header_list(msg,items_to_get,mail_index))
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/app1_core/mails_core/receiver.py", line 74, in header_list
+    msg_item_gotten,_=decode_header(msg_header_details[item_to_get])[0]
+  File "/opt/alt/python39/lib64/python3.9/email/header.py", line 80, in decode_header
+    if not ecre.search(header):
+TypeError: expected string or bytes-like object
+Internal Server Error: /mails/fetchMailHeads
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 179, in get_mail_heads
+    mail_headers=mail_receiver.fetch_headers()
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/app1_core/mails_core/receiver.py", line 105, in fetch_headers
+    mail_list.append(self.header_list(msg,items_to_get,mail_index))
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/app1_core/mails_core/receiver.py", line 74, in header_list
+    msg_item_gotten,_=decode_header(msg_header_details[item_to_get])[0]
+  File "/opt/alt/python39/lib64/python3.9/email/header.py", line 80, in decode_header
+    if not ecre.search(header):
+TypeError: expected string or bytes-like object
+[ERROR] [UID:1284][735306] wsgiAppHandler pApp->start_response() return NULL.
+Log in failed check your credentails and try again.
+Not Found: /
+Not Found: /mails/media/static/VWLogoResized.png
+Not Found: /mails/media/static/VWLogoResized.png
+Not Found: /mails/media/static/VWLogoResized.png
+Not Found: /mails/media/static/VWLogoResized.png
+Not Found: /mails/media/static/VWLogoResized.png
+Not Found: /mails/media/static/VWLogoResized.png
+Not Found: /mails/media/static/VWLogoResized.png
+Not Found: /mails/media/static/VWLogoResized.png
+Not Found: /mails/media/static/VWLogoResized.png
+Not Found: /mails/media/static/VWLogoResized.png
+Not Found: /
+Not Found: /
+Not Found: /mails/media/static/VWLogoResized.png
+Not Found: /mails/media/static/VWLogoResized.png
+Not Found: /mails/media/static/VWLogoResized.png
+Not Found: /mails/media/static/VWLogoResized.png
+Not Found: /mails/media/static/VWLogoResized.png
+Not Found: /mails/media/static/VWLogoResized.png
+Not Found: /mails/media/static/VWLogoResized.png
+Not Found: /
+Not Found: /favicon.ico
+Not Found: /
+Not Found: /
+Not Found: /
+Internal Server Error: /mails/fetchMailHeads
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 179, in get_mail_heads
+    mail_headers=mail_receiver.fetch_headers()
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/app1_core/mails_core/receiver.py", line 105, in fetch_headers
+    mail_list.append(self.header_list(msg,items_to_get,mail_index))
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/app1_core/mails_core/receiver.py", line 74, in header_list
+    msg_item_gotten,_=decode_header(msg_header_details[item_to_get])[0]
+  File "/opt/alt/python39/lib64/python3.9/email/header.py", line 80, in decode_header
+    if not ecre.search(header):
+TypeError: expected string or bytes-like object
+Internal Server Error: /mails/fetchMailHeads
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 179, in get_mail_heads
+    mail_headers=mail_receiver.fetch_headers()
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/app1_core/mails_core/receiver.py", line 105, in fetch_headers
+    mail_list.append(self.header_list(msg,items_to_get,mail_index))
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/app1_core/mails_core/receiver.py", line 74, in header_list
+    msg_item_gotten,_=decode_header(msg_header_details[item_to_get])[0]
+  File "/opt/alt/python39/lib64/python3.9/email/header.py", line 80, in decode_header
+    if not ecre.search(header):
+TypeError: expected string or bytes-like object
+Internal Server Error: /mails/fetchMailHeads
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 179, in get_mail_heads
+    mail_headers=mail_receiver.fetch_headers()
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/app1_core/mails_core/receiver.py", line 105, in fetch_headers
+    mail_list.append(self.header_list(msg,items_to_get,mail_index))
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/app1_core/mails_core/receiver.py", line 74, in header_list
+    msg_item_gotten,_=decode_header(msg_header_details[item_to_get])[0]
+  File "/opt/alt/python39/lib64/python3.9/email/header.py", line 80, in decode_header
+    if not ecre.search(header):
+TypeError: expected string or bytes-like object
+Internal Server Error: /mails/fetchMailHeads
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 179, in get_mail_heads
+    mail_headers=mail_receiver.fetch_headers()
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/app1_core/mails_core/receiver.py", line 105, in fetch_headers
+    mail_list.append(self.header_list(msg,items_to_get,mail_index))
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/app1_core/mails_core/receiver.py", line 74, in header_list
+    msg_item_gotten,_=decode_header(msg_header_details[item_to_get])[0]
+  File "/opt/alt/python39/lib64/python3.9/email/header.py", line 80, in decode_header
+    if not ecre.search(header):
+TypeError: expected string or bytes-like object
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /.env
+Not Found: /
+Not Found: /.DS_Store
+Not Found: /about
+[UID:1284][5956] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:1284][5956] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:1284][5956] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:1284][5956] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:1284][5956] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:1284][5956] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+Not Found: /
+Not Found: /info.php
+[UID:1284][5956] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+Not Found: /debug/default/view
+Not Found: /api/v2/cmdb/system/admin/admin
+Not Found: /s/3136372e38362e37372e313230/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties
+Not Found: /server-status
+[UID:1284][5956] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:1284][5956] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:1284][5956] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:1284][5956] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:1284][5956] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:1284][5956] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:1284][5956] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:1284][5956] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:1284][5956] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:1284][5956] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:1284][5956] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:1284][5956] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:1284][5956] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:1284][5956] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:1284][5956] Reached max children process limit: 6, extra: 2, current: 8, busy: 7, please increase LSAPI_CHILDREN.
+[UID:1284][5956] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+Not Found: /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application
+[UID:1284][5956] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+Not Found: /telescope/requests
+[UID:1284][5956] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:1284][5956] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:1284][5956] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:1284][5956] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:1284][5956] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:1284][5956] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:1284][5956] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:1284][5956] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:1284][5956] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:1284][5956] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+Not Found: /config.json
+Not Found: /login.action
+Not Found: /v2/_catalog
+Not Found: /api/search
+Not Found: /
+Not Found: /
+Not Found: /telescope/requests
+Not Found: /.DS_Store
+Not Found: /info.php
+Not Found: /s/3136372e38362e37372e313230/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties
+Not Found: /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application
+Not Found: /
+Not Found: /server-status
+Not Found: /api/v2/cmdb/system/admin/admin
+Not Found: /debug/default/view
+Not Found: /.env
+Not Found: /
+Not Found: /api/search
+Not Found: /v2/_catalog
+Not Found: /login.action
+Not Found: /about
+Not Found: /config.json
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /favicon.ico
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /favicon.ico
+Internal Server Error: /mails/fetchMail
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 369, in get_mail
+    file_data=htmlFile.read()
+  File "/opt/alt/python39/lib64/python3.9/encodings/ascii.py", line 26, in decode
+    return codecs.ascii_decode(input, self.errors)[0]
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xe2 in position 2356: ordinal not in range(128)
+Internal Server Error: /mails/fetchMail
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 313, in get_mail
+    m_f_body=mailBody.objects.get(mailObject__mail_object_id=objectId)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 496, in get
+    raise self.model.DoesNotExist(
+v1.app1_models.mail_body.mail_body.mailBody.DoesNotExist: mailBody matching query does not exist.
+Method Not Allowed: /mails/fetchMail
+Not Found: /favicon.ico
+Internal Server Error: /mails/fetchMail
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 369, in get_mail
+    file_data=htmlFile.read()
+  File "/opt/alt/python39/lib64/python3.9/encodings/ascii.py", line 26, in decode
+    return codecs.ascii_decode(input, self.errors)[0]
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xe2 in position 2356: ordinal not in range(128)
+Not Found: /
+Not Found: /
+Not Found: /.env
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Internal Server Error: /mails/fetchMail
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 308, in get_mail
+    mail_body=mail_receiver.fetch_body(mail_index=mail_id,folderName=objectId)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/app1_core/mails_core/receiver.py", line 285, in fetch_body
+    email_items=self.body_list(msg,folderName)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/app1_core/mails_core/receiver.py", line 170, in body_list
+    txt_file.write(body)
+UnicodeEncodeError: 'ascii' codec can't encode character '\u201c' in position 34: ordinal not in range(128)
+Internal Server Error: /mails/fetchMail
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 308, in get_mail
+    mail_body=mail_receiver.fetch_body(mail_index=mail_id,folderName=objectId)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/app1_core/mails_core/receiver.py", line 285, in fetch_body
+    email_items=self.body_list(msg,folderName)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/app1_core/mails_core/receiver.py", line 170, in body_list
+    txt_file.write(body)
+UnicodeEncodeError: 'ascii' codec can't encode character '\u201c' in position 34: ordinal not in range(128)
+Internal Server Error: /mails/fetchMail
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 308, in get_mail
+    mail_body=mail_receiver.fetch_body(mail_index=mail_id,folderName=objectId)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/app1_core/mails_core/receiver.py", line 285, in fetch_body
+    email_items=self.body_list(msg,folderName)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/app1_core/mails_core/receiver.py", line 170, in body_list
+    txt_file.write(body)
+UnicodeEncodeError: 'ascii' codec can't encode character '\u201c' in position 34: ordinal not in range(128)
+Not Found: /
+Not Found: /favicon.ico
+Internal Server Error: /mails/fetchMail
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 308, in get_mail
+    mail_body=mail_receiver.fetch_body(mail_index=mail_id,folderName=objectId)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/app1_core/mails_core/receiver.py", line 285, in fetch_body
+    email_items=self.body_list(msg,folderName)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/app1_core/mails_core/receiver.py", line 170, in body_list
+    txt_file.write(body)
+UnicodeEncodeError: 'ascii' codec can't encode character '\u201c' in position 34: ordinal not in range(128)
+Internal Server Error: /mails/fetchMail
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 308, in get_mail
+    mail_body=mail_receiver.fetch_body(mail_index=mail_id,folderName=objectId)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/app1_core/mails_core/receiver.py", line 285, in fetch_body
+    email_items=self.body_list(msg,folderName)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/app1_core/mails_core/receiver.py", line 170, in body_list
+    txt_file.write(body.encode("utf-8"))
+TypeError: write() argument must be str, not bytes
+Internal Server Error: /mails/fetchMail
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 369, in get_mail
+    file_data=htmlFile.read()
+  File "/opt/alt/python39/lib64/python3.9/encodings/ascii.py", line 26, in decode
+    return codecs.ascii_decode(input, self.errors)[0]
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xe2 in position 845: ordinal not in range(128)
+Internal Server Error: /mails/fetchMail
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 369, in get_mail
+    file_data=htmlFile.read().encode("utf-8")
+  File "/opt/alt/python39/lib64/python3.9/encodings/ascii.py", line 26, in decode
+    return codecs.ascii_decode(input, self.errors)[0]
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xe2 in position 845: ordinal not in range(128)
+Internal Server Error: /mails/fetchMail
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 317, in get_mail
+    file_data=bodyFile.read()
+  File "/opt/alt/python39/lib64/python3.9/encodings/ascii.py", line 26, in decode
+    return codecs.ascii_decode(input, self.errors)[0]
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xe2 in position 845: ordinal not in range(128)
+Not Found: /mails/media/static/VWLogoResized.png
+Not Found: /mails/media/static/VWLogoResized.png
+Not Found: /
+Not Found: /mails/media/static/VWLogoResized.png
+Not Found: /mails/media/static/VWLogoResized.png
+Not Found: /favicon.ico
+Not Found: /
+Not Found: /favicon.ico
+Not Found: /
+Internal Server Error: /mails/uploadFile
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 391, in uploadFile
+    abs_path=handle_uploaded_file(request.FILES['file'])
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 41, in handle_uploaded_file
+    with open(settings.MEDIA_ROOT+'/temp/'+f.name, 'wb+') as destination:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/vincowo1/mailsbe.vincowoods.com/media/temp/invoice-00041-vinco-woods-stbakhita-school.pdf'
+Internal Server Error: /mails/uploadFile
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 391, in uploadFile
+    abs_path=handle_uploaded_file(request.FILES['file'])
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 41, in handle_uploaded_file
+    with open(settings.MEDIA_ROOT+'/temp/'+f.name, 'wb+') as destination:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/vincowo1/mailsbe.vincowoods.com/media/temp/deliverychallan-00041-vinco-woods-stbakhita-school.pdf'
+Internal Server Error: /mails/uploadFile
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 391, in uploadFile
+    abs_path=handle_uploaded_file(request.FILES['file'])
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 41, in handle_uploaded_file
+    with open(settings.MEDIA_ROOT+'/temp/'+f.name, 'wb+') as destination:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/vincowo1/mailsbe.vincowoods.com/media/temp/deliverychallan-00041-vinco-woods-stbakhita-school.pdf'
+Internal Server Error: /mails/uploadFile
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 391, in uploadFile
+    abs_path=handle_uploaded_file(request.FILES['file'])
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 41, in handle_uploaded_file
+    with open(settings.MEDIA_ROOT+'/temp/'+f.name, 'wb+') as destination:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/vincowo1/mailsbe.vincowoods.com/media/temp/icon.png'
+Internal Server Error: /mails/uploadFile
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 391, in uploadFile
+    abs_path=handle_uploaded_file(request.FILES['file'])
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 41, in handle_uploaded_file
+    with open(settings.MEDIA_ROOT+'/temp/'+f.name, 'wb') as destination:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/vincowo1/mailsbe.vincowoods.com/media/temp/zinioviurablanco2019750ml.jpeg'
+Internal Server Error: /mails/uploadFile
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 391, in uploadFile
+    abs_path=handle_uploaded_file(request.FILES['file'])
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 41, in handle_uploaded_file
+    with open(settings.MEDIA_ROOT+'/temp/'+f.name, 'wb+') as destination:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/vincowo1/mailsbe.vincowoods.com/media/temp/zinioviurablanco2019750ml.jpeg'
+Internal Server Error: /mails/uploadFile
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 391, in uploadFile
+    abs_path=handle_uploaded_file(request.FILES['file'])
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 43, in handle_uploaded_file
+    destination.write(chunk.encode("utf-8"))
+AttributeError: 'bytes' object has no attribute 'encode'
+Internal Server Error: /mails/sendMail
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/fields/__init__.py", line 1988, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: ''
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 507, in send_mail
+    p_m_atts=mailAttachments.objects.filter(mailHead__mail_head_id=mail_head_id)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1071, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1089, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1096, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1502, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1532, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1448, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1273, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/fields/__init__.py", line 1990, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'mail_head_id' expected a number but got ''.
+Internal Server Error: /mails/sendMail
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 465, in send_mail
+    msg_body_items=mail_sender.send_mail(details_to_send)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/app1_core/mails_core/sender.py", line 167, in send_mail
+    with open(file_details,"rb") as attachment_file:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/vincowo1/mailsbe.vincowoods.com/media/temp/zinioviurablanco2019750ml.jpeg'
+Internal Server Error: /mails/sendMail
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 465, in send_mail
+    msg_body_items=mail_sender.send_mail(details_to_send)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/app1_core/mails_core/sender.py", line 167, in send_mail
+    with open(file_details,"rb") as attachment_file:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/vincowo1/mailsbe.vincowoods.com/media/temp/zinioviurablanco2019750ml.jpeg'
+Internal Server Error: /mails/sendMail
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/fields/__init__.py", line 1988, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: ''
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 507, in send_mail
+    p_m_atts=mailAttachments.objects.filter(mailHead__mail_head_id=mail_head_id)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1071, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1089, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1096, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1502, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1532, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1448, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1273, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/fields/__init__.py", line 1990, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'mail_head_id' expected a number but got ''.
+Internal Server Error: /mails/sendMail
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/fields/__init__.py", line 1988, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: ''
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 507, in send_mail
+    p_m_atts=mailAttachments.objects.filter(mailHead__mail_head_id=mail_head_id)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1071, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1089, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1096, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1502, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1532, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1448, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1273, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/fields/__init__.py", line 1990, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'mail_head_id' expected a number but got ''.
+Internal Server Error: /mails/sendMail
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/fields/__init__.py", line 1988, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: ''
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 507, in send_mail
+    p_m_atts=mailAttachments.objects.filter(mailHead__mail_head_id=mail_head_id)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1071, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1089, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1096, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1502, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1532, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1448, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1273, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/fields/__init__.py", line 1990, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'mail_head_id' expected a number but got ''.
+Internal Server Error: /mails/sendMail
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 465, in send_mail
+    msg_body_items=mail_sender.send_mail(details_to_send)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/app1_core/mails_core/sender.py", line 167, in send_mail
+    with open(file_details,"rb") as attachment_file:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/vincowo1/mailsbe.vincowoods.com/media/temp/zinioviurablanco2019750ml.jpeg'
+Internal Server Error: /mails/sendMail
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/fields/__init__.py", line 1988, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: ''
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 507, in send_mail
+    for attachment_folder in msg_body_items["Attachments_folder"]:
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1071, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1089, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1096, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1502, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1532, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1448, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1273, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/db/models/fields/__init__.py", line 1990, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'mail_head_id' expected a number but got ''.
+Internal Server Error: /mails/sendMail
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 465, in send_mail
+    msg_body_items=mail_sender.send_mail(details_to_send)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/app1_core/mails_core/sender.py", line 167, in send_mail
+    with open(file_details,"rb") as attachment_file:
+FileNotFoundError: [Errno 2] No such file or directory: '/media/88/attachments/zinioviurablanco2019750ml.jpeg'
+Internal Server Error: /mails/sendMail
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 465, in send_mail
+    msg_body_items=mail_sender.send_mail(details_to_send)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/app1_core/mails_core/sender.py", line 167, in send_mail
+    with open(file_details,"rb") as attachment_file:
+FileNotFoundError: [Errno 2] No such file or directory: '/media/88/attachments/zinioviurablanco2019750ml.jpeg'
+Internal Server Error: /mails/sendMail
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 465, in send_mail
+    msg_body_items=mail_sender.send_mail(details_to_send)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/app1_core/mails_core/sender.py", line 167, in send_mail
+    with open(file_details,"rb") as attachment_file:
+FileNotFoundError: [Errno 2] No such file or directory: '/media/90/attachments/zapalares750ml.jpeg'
+Internal Server Error: /mails/sendMail
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 465, in send_mail
+    msg_body_items=mail_sender.send_mail(details_to_send)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/app1_core/mails_core/sender.py", line 167, in send_mail
+    with open(file_details,"rb") as attachment_file:
+FileNotFoundError: [Errno 2] No such file or directory: '/media/90/attachments/zapalares750ml.jpeg'
+Internal Server Error: /mails/sendMail
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 465, in send_mail
+    msg_body_items=mail_sender.send_mail(details_to_send)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/app1_core/mails_core/sender.py", line 169, in send_mail
+    with open(file_details,"rb") as attachment_file:
+FileNotFoundError: [Errno 2] No such file or directory: '/media/90/attachments/zapalares750ml.jpeg'
+Internal Server Error: /mails/sendMail
+Traceback (most recent call last):
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/vincowo1/virtualenv/mailsbe.vincowoods.com/3.9/lib/python3.9/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/views.py", line 465, in send_mail
+    msg_body_items=mail_sender.send_mail(details_to_send)
+  File "/home/vincowo1/mailsbe.vincowoods.com/v1/app1_core/mails_core/sender.py", line 171, in send_mail
+    with open(file_details,"rb") as attachment_file:
+FileNotFoundError: [Errno 2] No such file or directory: '/media/90/attachments/zapalares750ml.jpeg'

@@ -1,0 +1,135 @@
+Client Configuration settings for “admin@vincowoods.com”.
+
+
+Mail Client Manual Settings
+---------------------------
+
+Secure SSL/TLS Settings (Recommended)
+
+Username:
+
+admin@vincowoods.com
+
+Password:
+
+Use the email account’s password.
+
+Incoming Server:
+
+mail.vincowoods.com
+
+  * IMAP Port: 993
+
+  * POP3 Port: 995
+
+Outgoing Server:
+
+mail.vincowoods.com
+
+  * SMTP Port: 465
+
+IMAP, POP3, and SMTP require authentication.
+
+Non-SSL Settings (NOT Recommended)
+
+Username:
+
+admin@vincowoods.com
+
+Password:
+
+Use the email account’s password.
+
+Incoming Server:
+
+mail.vincowoods.com
+
+  * IMAP Port: 143
+
+  * POP3 Port: 110
+
+Outgoing Server:
+
+mail.vincowoods.com
+
+  * SMTP Port: 587
+
+IMAP, POP3, and SMTP require authentication.
+
+
+Calendar & Contacts Manual Settings
+-----------------------------------
+
+Secure SSL/TLS Settings (Recommended).
+
+Username:
+
+admin@vincowoods.com
+
+Password:
+
+Use the email account’s password.
+
+Server:
+
+https://mail.vincowoods.com:2080
+
+  * Port: 2080
+
+Full Calendar URL(s):
+
+  * Calendar:
+
+  * https://mail.vincowoods.com:2080/rpc/calendars/admin@vincowoods.com/calendar:e983607f-3663-34b3-0b39-384f9a075598
+
+Full Contact List URL(s):
+
+  * Address Book:
+
+  * https://mail.vincowoods.com:2080/rpc/addressbooks/admin@vincowoods.com/contacts~16fd4036-492c-e161-6001-f453f408a843
+
+Non-SSL Settings (NOT Recommended).
+
+Username:
+
+admin@vincowoods.com
+
+Password:
+
+Use the email account’s password.
+
+Server:
+
+http://mail.vincowoods.com:2079
+
+  * Port: 2079
+
+Full Calendar URL(s):
+
+  * Calendar:
+
+  * http://mail.vincowoods.com:2079/rpc/calendars/admin@vincowoods.com/calendar:e983607f-3663-34b3-0b39-384f9a075598
+
+Full Contact List URL(s):
+
+  * Address Book:
+
+  * http://mail.vincowoods.com:2079/rpc/addressbooks/admin@vincowoods.com/contacts~16fd4036-492c-e161-6001-f453f408a843
+
+A .mobileconfig file for use with iOS for iPhone/iPad/iPod and MacOS® Mail.app® for Mountain Lion (10.8+) is attached to this message.
+
+This notice is the result of a request made by a computer with the IP address of “154.70.49.225” through the “cpanel” service on the server.
+
+The remote computer’s location appears to be: Kenya (KE).
+
+The remote computer’s network link type appears to be: “Ethernet or modem”.
+
+The remote computer’s operating system appears to be: “Linux” with version “2.2.x-3.x”.
+
+The system generated this notice on Monday, July 25, 2022 at 2:45:49 AM UTC.
+
+Do not reply to this automated message.
+
+cP
+
+Copyright© 2022 cPanel, L.L.C.

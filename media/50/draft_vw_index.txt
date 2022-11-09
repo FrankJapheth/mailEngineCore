@@ -1,0 +1,10 @@
+Mail service account credentials:
+
+   Link: https://vwmails.vincowoods.com/
+   email: admin.vincowoods.com
+   password: fTOQ~(ducoY(
+
+Choose the account of your choice in this case:
+
+  Account Name: Vincent Agutu
+  Account email: vincent.agutu@vincowoods.com
