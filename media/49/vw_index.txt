@@ -1,0 +1,65 @@
+
+            <!DOCTYPE html>
+            <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Vincowoods</title>
+            </head>
+            <body>
+                <div class="holder">
+                    <div class="mainbody">
+                        <div><p></p></div>
+                    </div>
+                    <div class="vwMailFooterDetails">
+                        <h3>
+                            Kind Regards,
+                        </h3>
+                        <table>
+                            <tr>
+                                <td>
+                                    <div class="vWMFDImgHolder"">
+                                        <img src="https://www.vincowoods.com/static/static_images/VWLogo.png" class="vWMFDImgTag"
+                                        style="width: 110px;">
+                                        <div style="width: 110px; font-size:10px;color:blue;font-weight:700">
+                                            <div style="position: relative;left:10px;">
+                                                VINCO W LIMITED
+                                            </div>
+                                            <div style="position: relative;left:15px;">
+                                                VINCO WOODS
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="vWMFDCompanyDetails">
+                                        <h3 class="vwOwnername">        
+                                            Vincent J Agutu | Director | Kenya 
+                                        </h3>
+                                        <p style="color: gray;">
+                                            MBA, BSc; UoN
+                                        </p>
+                                        <div class="vWOwnermobiles">
+                                            <h4 class="vWOMTitle">
+                                                Mobiles: +254782914632, +254728914632
+                                            </h4> 
+                                        </div>
+                                                
+                                        <h4>
+                                            Tembo Plaza, Garden Estate Road
+                                        </h4>
+
+                                        <h4 class="websitelink">
+                                            Website: <a href="https://www.vincowoods.com" target="_blank" rel="noopener noreferrer">www.vincowoods.com</a>
+                                        </h4>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>         
+                        
+                    </div>
+                </div>
+            </body>
+            </html>
+        
